@@ -12,7 +12,7 @@
 }
 
 .netWord{
-    color: cornflowerblue;
+    color: #5080A7;
     display: inline-block;
 }
 
@@ -27,7 +27,8 @@
 }
 
 #header{
-    background-color: navy;
+    /*background-color: #5080A7;*/
+    background: linear-gradient(#2D689B,#00BFDC,#2D689B);
     height: 1.9em;
     margin-top: -2.5%;
     text-align: left;
@@ -97,18 +98,72 @@
 
 #phoneNum{
     display: inline;
-    color: cornflowerblue;
+    color: #00BFDC;
     font-size: 20pt;
     text-align: right;
     /*vertical-align: top;*/
     /*border: solid black;*/
 }
 
-#mainTitleHead{
-    color: Blue;
+.mainTitleHead{
+    color:  #457EAD;
     font-size: 18pt;
     font-weight: bold;
     display: inline;
+}
+
+.mainText{
+    display: inline;
+}
+
+.mainBlueWords{
+    display: inline;
+    color:  #00BFDC;
+    /*border: solid black;*/
+}
+
+.mainContent ol{
+    margin-left: 6%;
+}
+
+.mainContent ul{
+    margin-left: 6%;
+}
+
+.mainContent li{
+    /*margin-left: 6%;*/
+    line-height: 1.25;
+}
+
+#clientServ{
+    display: inline-block;
+    width: 20%;
+    height: auto;
+    margin: 2% 35%;
+}
+
+.big3{
+    display: inline-block;
+    width: 80%;
+    border: solid blue;
+    margin-left: 1%;
+    height: 40%;
+    padding-top: 1%;
+    margin-top: 0%;
+    padding-left: 17%;
+}
+
+#htmlIm{
+    display: inline;
+    width: 15%;
+    height: auto;
+    padding: 2%;
+    margin-bottom: -17.5%;
+}
+
+#boxWords{
+    display: inline;
+    /*border: solid black;*/
 }
 
 #sideBar{
@@ -119,13 +174,14 @@
     font-size: 0.8em;
     padding-top: 1%;
     font-weight: bold;
-    padding-left: 0.8%
+    padding-left: 0.8%;
+    /*text-align: center;*/
 }
 
 #sideBar p{
     font-weight: bold;
     font-size: 1.3em;
-    display: inline;
+    /*display: inline;*/
 }
 
 #sideSo{
@@ -141,18 +197,27 @@
     width: 95%;
     font-size: 1.2em;
     color: white;
-    background-color: blue;
+    background: linear-gradient(#457EAD,#2D689B);
     margin: 1% auto;
     padding: 5% 0.5%;
     border-radius: 5%;
 }
 
-#sideBar .sideButton:last-child{
-    background-color: orange;
+.sideButton:nth-of-type(5){
+    background: linear-gradient(#EAA75B,#F0781D);
+}
+
+.sideButton:nth-of-type(1){
+    background: linear-gradient(#60CDDC,#00C2DC)
 }
 
 #sideBar > hr{
     width:94%;
+}
+
+#sideBlurb{
+    font-size: 10pt;
+
 }
 
 .ninjaBox{

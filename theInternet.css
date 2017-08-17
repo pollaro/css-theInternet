@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+#globeLine{
+    font-size:2em;
+    display: inline;
+    color: gray;
+    /*vertical-align: middle;*/
+}
+
+.netWord{
+    color: cornflowerblue;
+    display: inline-block;
+}
+
+#globe{
+    width: 7%;
+    height: auto;
+    margin: 1.4%;
+    margin-right: -1%;
+    margin-bottom: 1.2%;
+    display: inline;
+    vertical-align: middle;
+}
+
+#header{
+    background-color: navy;
+    height: 1.9em;
+    margin-top: -2.5%;
+    text-align: left;
+    padding-top: 1.4%;
+    padding-left: 3.3%;
+    color: white;
+    font-size: 18pt;
+}
+
+#mainBody{
+
+}
+
+#sideBar{
+    /*background-color: gray;*/
+    display: inline-block;
+    width:15%;
+    height:400px;
+    font-size: 0.8em;
+    padding-top: 1%;
+    font-weight: bold;
+    padding-left: 0.8%
+}
+
+#sideBar p{
+    display: inline;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.mainContent{
+    background-color: purple;
+    display: inline-block;
+    width:80%;
+    height:400px;
+    vertical-align: top;
+}
+
+#sideSo{
+    color: red;
+    display: inline;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.sideButton{
+    text-align: center;
+    display: inline-block;
+    width: 95%;
+    font-size: 1.2em;
+    color: white;
+    background-color: blue;
+    margin: 1% auto;
+    padding: 5% 0%;
+    border-radius: 5%;
+}
+
+#sideBar .sideButton:last-child{
+    background-color: orange;
+}
+
+#sideBar > hr{
+    width:94%;
+}
+
+#ninjaBox{
+    display: inline-block;
+    width: inherit;
+    background-color: green;
+    height: 100px;
+}
+
+#ninjaBack{
+    width: 95%;
+    height: auto;
+}
